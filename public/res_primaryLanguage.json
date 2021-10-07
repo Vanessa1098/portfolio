@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Xin Jie, a final year business administration and computer science double degree student at NUS. I specialise in business analytics and software engineer and I'm keen to explore career opportunities in Software Engineering, Data Science, Data Analytics and Machine Learning. I run a small online business selling personalised gifts in my free time, and I also enjoy boxing!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,95 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Detecting Depression using Twitter",
+        "startDate": "2021",
+        "description": "A school project where my team and I built a machine learning model to detect depression using Natural Language Processing by doing a sentiment analysis of tweets using Python.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/twitter/twitter.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Final Year Project",
+        "startDate": "2020",
+        "description": "Final year project with Top International Holding where me and my teammates conceptualised and developed dashboards using Microsoft Power BI for business users to monitor their performance in a timely manner.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/fyp/commodity_trading.png",
+          "images/portfolio/fyp/human_resource.png"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "iconify",
+            "name": "Tableau"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "NYGO",
+        "startDate": "2020",
+        "description": "NYGO is a R shiny application developed using R where tourists can obtain a range of information about New York City such as restaurant locations, lodging information and more. The restaurant and lodging information were scraped from Tripadvisor and Airbnb using webscraping techniques.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/nygo/nygo.png"
         ],
-        "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-r-plain",
+            "name": "R"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Citibank",
+        "title": "Software Engineer Intern",
+        "years": "05.2021 - 07.2021",
+        "class": "fab fa-angular experience-icon",
         "mainTech": [
-          "Angular 8/9/10"
+          "Angular",
+          "Spring Boot"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Javascript",
+          "Typescript",
+          "Java",
+          "HTML"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "National University of Singapore - School of Computing",
+        "title": "Research Intern",
+        "years": "05.2020 - 07.2020",
+        "class": "fas fa-terminal experience-icon",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Bash Shell Scripting",
+          "C"
+        ]
+      },
+      {
+        "company": "Great Eastern",
+        "title": "Digital Business Platform Intern",
+        "years": "05.2019 - 07.2019",
+        "class": "fas fa-chart-bar experience-icon",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]

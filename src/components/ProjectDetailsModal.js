@@ -16,7 +16,15 @@ class ProjectDetailsModal extends Component {
         var tech = technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
-              <span>
+              {icons.class == 'iconify' ? (
+                <div className="text-center">
+                  <span class="iconify" data-icon="logos:tableau" data-width="70"></span>
+                  <p className="text-center" style={{ fontSize: "95%", fontFamily: "Cambria"}}>
+                      {icons.name}
+                  </p>
+                </div>
+              ) : (
+                <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
@@ -25,6 +33,7 @@ class ProjectDetailsModal extends Component {
                   </i>
                 </div>
               </span>
+              )}
             </li>
           );
         });
