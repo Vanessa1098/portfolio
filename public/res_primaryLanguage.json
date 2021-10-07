@@ -30,8 +30,8 @@
         "startDate": "2020",
         "description": "Final year project with Top International Holding where me and my teammates conceptualised and developed dashboards using Microsoft Power BI for business users to monitor their performance in a timely manner.",
         "images": [
-          "images/portfolio/fyp/commodity_trading.PNG",
-          "images/portfolio/fyp/human_resource.PNG"
+          "images/portfolio/fyp/commodity_trading.png",
+          "images/portfolio/fyp/human_resource.png"
         ],
         "technologies": [
           {
